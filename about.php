@@ -7,7 +7,7 @@ error_reporting(0);
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>BabyToys</title>
+    <title>Nirvana</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -38,7 +38,7 @@ error_reporting(0);
   <body class="goto-here">
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">BabyToys</a>
+	      <a class="navbar-brand" href="index.php">Nirvana</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -50,7 +50,6 @@ error_reporting(0);
 					<li class="nav-item active"><a href="about.php" class="nav-link">About</a></li>
 					<li class="nav-item"><a href="product.php" class="nav-link">Products</a></li> 
 					<li class="nav-item"><a href="news.php" class="nav-link">NewsLetter</a></li>
-					<li class="nav-item"><a href="team.php" class="nav-link">Founders</a></li>
                     <?php if($_SESSION["loggedin"]) { echo ('
                         <li class="nav-item"><a href="employees.php" class="nav-link">Employees</a></li>
                         <li class="nav-item"><a href="logout.php" class="nav-link"><i class="fa fa-sign-out">Log Out</i></a></li>
@@ -82,7 +81,7 @@ error_reporting(0);
 					<div class="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">
 	          <div class="heading-section-bold mb-4 mt-md-5">
 	          	<div class="ml-md-0">
-		            <h2 class="mb-4">Welcome to BabyToys</h2>
+		            <h2 class="mb-4">Welcome to Nirvana</h2>
 	            </div>
 	          </div>
 	          <div class="pb-md-5">
@@ -93,12 +92,78 @@ error_reporting(0);
 				</div>
 			</div>
 		</section>
+    
+    <section class="ftco-section">
+      <div class="container">
+        <center><h2 class="mb-4" style="font-weight: bold;">Meet our Founders</h2></center>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="product">
+              <center><a class="img-prod"><img class="img-fluid" src="images/admin_1.jpg" style="max-width: 170px;border-radius: 50%;"></center></a>
+              <div class="text py-3 pb-4 px-3 text-center">
+                <h3>
+                <a>
+                  <?php $myFile = "contact.txt";
+                  $lines = file($myFile);
+                  echo $lines[0];?><br/>
+                  <?php echo $lines[3]; ?>
+                </a>
+                </h3>
+                <div class="d-flex">
+                  <div class="pricing">
+                    <p class="price"><span>
+                    <?php echo $lines[1]; ?>
+                    <br/>
+                    <?php echo $lines[2]; ?>
+                    </span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="product">
+              <center><a class="img-prod"><img class="img-fluid" src="images/admin_2.jpg" style="max-width: 170px;border-radius: 50%;"></center></a>
+              <div class="text py-3 pb-4 px-3 text-center">
+                <h3>
+                  <a>
+                    <?php 
+                      echo $lines[4];?><br/>
+                      <?php echo $lines[7]; ?>
+                  </a></h3>
+                <div class="d-flex">
+                  <div class="pricing">
+                    <p class="price"><span><?php echo $lines[5]; ?><br/><?php echo $lines[6]; ?></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 ftco-animate">
+            <div class="product">
+              <center><a class="img-prod"><img class="img-fluid" src="images/admin_3.jpg" style="max-width: 170px;border-radius: 50%;"></center></a>
+              <div class="text py-3 pb-4 px-3 text-center">
+                <h3><a>
+                <?php 
+                      echo $lines[8];?><br/>
+                      <?php echo $lines[11]; ?>
+                </a></h3>
+                <div class="d-flex">
+                  <div class="pricing">
+                    <p class="price"><span><?php echo $lines[9]; ?><br/><?php echo $lines[10]; ?></span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <footer>
 		<section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
 			<div class="container py-4">
-				<center>Thank you for stoping by <io style="color:red;">&#10084;</io></center>
-				<center>copyrights &copy 2022 shwethabhandary</center>
+				<center>copyrights &copy 2022 Nimish Lingesh</center>
 			</div>
 		</section>
 	</footer>

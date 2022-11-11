@@ -16,7 +16,3 @@ $DATABASE_USER = 'root';
 $DATABASE_PASS = 'mysql';
 $DATABASE_NAME = 'nirvana'; -->
 
-<!-- $DATABASE_HOST = 'localhost';
-$DATABASE_USER = 'shwethas_root';
-$DATABASE_PASS = 'root123';
-$DATABASE_NAME = 'shwethas_babytoys'; -->

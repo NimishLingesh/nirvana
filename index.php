@@ -39,7 +39,7 @@ error_reporting(0);
 	<div class="py-1 bg-primary">
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">BabyToys</a>
+	      <a class="navbar-brand" href="index.php">Nirvana</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -51,7 +51,6 @@ error_reporting(0);
 					<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
 					<li class="nav-item"><a href="product.php" class="nav-link">Products</a></li> 
 					<li class="nav-item"><a href="news.php" class="nav-link">NewsLetter</a></li>
-					<li class="nav-item"><a href="team.php" class="nav-link">Founders</a></li>
                     <?php if($_SESSION["loggedin"]) { echo ('
                         <li class="nav-item"><a href="employees.php" class="nav-link">Employees</a></li>
                         <li class="nav-item"><a href="logout.php" class="nav-link"><i class="fa fa-sign-out" style="color:black">Log Out</i></a></li>
@@ -98,7 +97,7 @@ error_reporting(0);
     </section>
 
     <section class="ftco-section">
-			<div class="container">
+			<!-- <div class="container">
 				<div class="row no-gutters ftco-services">
           <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services mb-md-0 mb-4">
@@ -145,8 +144,9 @@ error_reporting(0);
             </div>      
           </div>
         </div>
-			</div>
+			</div> -->
 		</section>
+
 
 		<section class="ftco-section ftco-category ftco-no-pt">
 			<div class="container">
@@ -155,36 +155,36 @@ error_reporting(0);
 						<div class="row">
 							<div class="col-md-6 order-md-last align-items-stretch d-flex">
 								<div class="category-wrap-2 ftco-animate img align-self-stretch d-flex" style="background-image: url(images/category.jpg);">
-									<div class="text text-center">
+									<!-- <div class="text text-center">
 										<h1 style="color: black; margin-top: 20%;">Toys we Sell</h1>
-									</div>
+									</div> -->
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="category-wrap ftco-animate img mb-4 d-flex align-items-end" style="background-image: url(images/product-1.jpg);">
-									<div class="text px-3 py-1">
+									<!-- <div class="text px-3 py-1">
 										<h2 class="mb-0"><a href="#">Wooden Toys</a></h2>
-									</div>
+									</div> -->
 								</div>
-								<div class="category-wrap ftco-animate img d-flex align-items-end" style="background-image: url(images/product-5.jpg);">
-									<div class="text px-3 py-1">
+								<div class="category-wrap ftco-animate img d-flex align-items-end" style="background-image: url(images/product-2.jpg);">
+									<!-- <div class="text px-3 py-1">
 										<h2 class="mb-0"><a href="#">polypropylene Toys</a></h2>
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>
 					</div>
 
 					<div class="col-md-4">
-						<div class="category-wrap ftco-animate img mb-4 d-flex align-items-end" style="background-image: url(images/product-10.jpg);">
-							<div class="text px-3 py-1">
+						<div class="category-wrap ftco-animate img mb-4 d-flex align-items-end" style="background-image: url(images/product-3.jpg);">
+							<!-- <div class="text px-3 py-1">
 								<h2 class="mb-0"><a href="#">Natural Fiber Toys</a></h2>
-							</div>		
+							</div>		 -->
 						</div>
-						<div class="category-wrap ftco-animate img d-flex align-items-end" style="background-image: url(images/product-9.jpg);">
-							<div class="text px-3 py-1">
+						<div class="category-wrap ftco-animate img d-flex align-items-end" style="background-image: url(images/product-4.jpg);">
+							<!-- <div class="text px-3 py-1">
 								<h2 class="mb-0"><a href="#">Natural Rubber toys</a></h2>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
@@ -196,7 +196,7 @@ error_reporting(0);
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Take a look at what our customers say</h2>
+            <h2 class="mb-4">Customer's review</h2>
          </div>
         </div>
         <div class="row ftco-animate">
@@ -210,9 +210,9 @@ error_reporting(0);
                     </span>
                   </div>
                   <div class="text text-center">
-                    <p class="mb-5 pl-4 line">The Wooden Toys are really great and good for toddlers as they dont break Inspite of multiple throws.</p>
-                    <p class="name">Emma Adem</p>
-                    <span class="position">Mother</span>
+                    <p class="mb-5 pl-4 line">Easy and convinient to use Nirvana.</p>
+                    <p class="name">Rahul Shetty</p>
+                    <span class="position">Civil Engineer</span>
                   </div>
                 </div>
               </div>
@@ -224,9 +224,9 @@ error_reporting(0);
                     </span>
                   </div>
                   <div class="text text-center">
-                    <p class="mb-5 pl-4 line">Stuff Toys are really soft, cute and long lasting. The stitches are strong making it durable.</p>
-                    <p class="name">John Thomas</p>
-                    <span class="position">Interface Designer</span>
+                    <p class="mb-5 pl-4 line">Good quality materials and very realiable.</p>
+                    <p class="name">Nagarjun</p>
+                    <span class="position">Interior Designer</span>
                   </div>
                 </div>
               </div>
@@ -238,8 +238,8 @@ error_reporting(0);
                     </span>
                   </div>
                   <div class="text text-center">
-                    <p class="mb-5 pl-4 line">Word blocks bought were really cute and the edge cuts were smooth making it kids friendly.</p>
-                    <p class="name">Greeta Smith</p>
+                    <p class="mb-5 pl-4 line">Good service, met all my expectations.</p>
+                    <p class="name">Kiran Arora</p>
                     <span class="position">Investment Banker</span>
                   </div>
                 </div>
@@ -252,8 +252,8 @@ error_reporting(0);
                     </span>
                   </div>
                   <div class="text text-center">
-                    <p class="mb-5 pl-4 line">The Marvel Collection was by far my kid's favorite. Waiting for more Marvel toys to be realsed. </p>
-                    <p class="name">Shawn Doe</p>
+                    <p class="mb-5 pl-4 line">Good service, on time delivery.</p>
+                    <p class="name">Rizwan Khan</p>
                     <span class="position">Web Developer</span>
                   </div>
                 </div>
@@ -267,8 +267,7 @@ error_reporting(0);
 	<footer>
 		<section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
 			<div class="container py-4">
-				<center>Thank you for stoping by <io style="color:red;">&#10084;</io></center>
-				<center>copyrights &copy 2022 shwethabhandary</center>
+				<center>copyrights &copy 2022 Nimish Lingesh</center>
 			</div>
 		</section>
 	</footer>

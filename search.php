@@ -14,7 +14,7 @@ if (!isset($_SESSION['loggedin'])) {
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>BabyToys</title>
+    <title>Nirvana</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -87,7 +87,7 @@ if (!isset($_SESSION['loggedin'])) {
   <body class="goto-here">
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">BabyToys</a>
+	      <a class="navbar-brand" href="index.php">Nirvana</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>

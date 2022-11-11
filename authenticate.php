@@ -28,7 +28,8 @@ if ($stmt = $con->prepare('SELECT email, password FROM admin WHERE email = ?')) 
 			session_regenerate_id();
 			$_SESSION['loggedin'] = TRUE;
 			$_SESSION['name'] = $_POST['username'];
-			header('Location: employees.php');
+			// header('Location: employees.php');
+			echo '<script> window.location.href="employees.php";</script>';
 		} else {
 			// Incorrect password
 			echo '<script>

@@ -100,7 +100,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>BabyToys</title>
+    <title>Nirvana</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -132,7 +132,7 @@ session_start();
 	
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">BabyToys</a>
+	      <a class="navbar-brand" href="index.php">Nirvana</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -144,7 +144,6 @@ session_start();
 					<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
 					<li class="nav-item active"><a href="product.php" class="nav-link">Products</a></li> 
 					<li class="nav-item"><a href="news.php" class="nav-link">NewsLetter</a></li>
-					<li class="nav-item"><a href="team.php" class="nav-link">Founders</a></li>
                     <?php if($_SESSION["loggedin"]) { echo ('
                         <li class="nav-item"><a href="employees.php" class="nav-link">Employees</a></li>
                         <li class="nav-item"><a href="logout.php" class="nav-link"><i class="fa fa-sign-out" style="color:black">Log Out</i></a></li>
@@ -250,8 +249,7 @@ session_start();
     <footer>
 		<section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
 			<div class="container py-4">
-				<center>Thank you for stoping by <io style="color:red;">&#10084;</io></center>
-				<center>copyrights &copy 2022 shwethabhandary</center>
+				<center>copyrights &copy 2022 Nimish Lingesh</center>
 			</div>
 		</section>
 	</footer>
