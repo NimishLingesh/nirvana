@@ -94,19 +94,20 @@ include('connection.php');
             break;
         }
     }
-    $result = mysqli_query($con,"SELECT * FROM mostvisited WHERE id={$id}");
+    $result = mysqli_query($con,"SELECT * FROM mostVisited WHERE id={$id}");
     if(mysqli_num_rows($result) === 0){
-        $result2 = $con->query("INSERT INTO mostvisited (id,name,image,cost,count) values ({$id},'{$data['name']}','{$data['image']}','{$data['cost']}',1)");
+        $result2 = $con->query("INSERT INTO mostVisited (id,name,image,cost,count) values ({$id},'{$data['name']}','{$data['image']}','{$data['cost']}',1)");
     }
     else{
         while($row = $result -> fetch_assoc()){
             //echo "number of rows: " . $result->num_rows;
             $count =1+$row["count"];
-            $sql = "UPDATE mostvisited set count='{$count}' where id={$id}";
+            $sql = "UPDATE mostVisited set count='{$count}' where id={$id}";
             $result = $con->query($sql);
             break;
         }
     }
+
      
     $cookie_name = $id;
     $cookie_val = time();
