@@ -1,6 +1,6 @@
 <?php
 // We need to use sessions, so you should always start sessions using the below code.
-include('connection.php');
+// include('connection.php');
 session_start();
 error_reporting(0);
 ?>

@@ -72,7 +72,7 @@ error_reporting(0);
 	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
 	            <div class="col-md-12 ftco-animate text-center">
-	              <h1 class="mb-2">ORDER CONSTRUCTION MATERIALS</h1>
+	              <h1 style="font-family:Times" class="mb-2">CONSTRUCTION MATERIALS</h1>
 	              <h2 class="subheading mb-4">One roof for all your requirements</h2>
 	            </div>
 
@@ -86,7 +86,7 @@ error_reporting(0);
 	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
 	            <div class="col-sm-12 ftco-animate text-center">
-	              <h1 class="mb-2">NIRVANA TECH</h1>
+	              <h1 style="font-family:Times" class="mb-2">NIRVANA TECH</h1>
 	              <h2 class="subheading mb-4">One stop for all your Construction materials</h2>
 	            </div>
 

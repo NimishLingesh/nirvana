@@ -173,7 +173,7 @@ if (!isset($_SESSION['loggedin'])) {
             </tr>
             <?php 
                   $sql1 = "select * from users";
-                  
+
                   $results1 = mysqli_query($con,$sql1);
                 while ($row = mysqli_fetch_array($results1)) { ?>
             <tr>

@@ -134,10 +134,10 @@ include('connection.php');
     <!-- END nav -->
 
     <section class="ftco-section">
-    <h2 style="color:green;"><center>Viewed Products</center></h2>
-        <div style="margin: auto; width: 40%; border: 3px solid green; padding: 10px;"> 
+    <h2 style="color:purple;"><center>Viewed Products</center></h2>
+        <div style="margin: auto; width: 40%; padding: 10px;"> 
          <?php
-        $sqlrecent = "SELECT * FROM mostvisited order by count desc limit 5";
+        $sqlrecent = "SELECT * FROM mostVisited order by count desc limit 5";
 
         $resultrecent = $con->query($sqlrecent);
 
