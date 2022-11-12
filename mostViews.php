@@ -1,6 +1,7 @@
 <?php
 // We need to use sessions, so you should always start sessions using the below code.
 session_start();
+error_reporting(0);
 include('connection.php');
 ?>
 <?php $arr = array(
@@ -136,7 +137,7 @@ include('connection.php');
     <h2 style="color:green;"><center>Viewed Products</center></h2>
         <div style="margin: auto; width: 40%; border: 3px solid green; padding: 10px;"> 
          <?php
-        $sqlrecent = "SELECT * FROM mostvisited order by count desc ";
+        $sqlrecent = "SELECT * FROM mostvisited order by count desc limit 5";
 
         $resultrecent = $con->query($sqlrecent);
 
@@ -169,8 +170,7 @@ include('connection.php');
     <footer>
 		<section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
 			<div class="container py-4">
-				<center>Thank you for stoping by <io style="color:red;">&#10084;</io></center>
-				<center>copyrights &copy 2022 shwethabhandary</center>
+				<center>copyrights &copy 2022 Nimish Lingesh</center>
 			</div>
 		</section>
 	</footer>

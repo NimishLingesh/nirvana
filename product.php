@@ -2,68 +2,68 @@
 // We need to use sessions, so you should always start sessions using the below code.
 include('connection.php');
 session_start();
-
+error_reporting(0);
 ?>
 <?php $arr = array(
         array("id"=>0,
             "image" => "images/product-1.jpg",
-            "name" => "Wooden car toy",
-            "cost" =>"$50.00"
+            "name" => "Steel TMT",
+            "cost" =>"$80.00"
         ),
         array("id"=>1,
             "image" => "images/product-2.jpg",
-            "name" => "Teddy",
+            "name" => "Cement",
             "cost" =>"$40.00"
         ),
         array("id"=>2,
 			"image" => "images/product-3.jpg",
-			"name" => "Wooden Unicorn Toy",
-			"cost" =>"$60.00"
+			"name" => "Bricks",
+			"cost" =>"$10.00"
         ),
         array("id"=>3,
 			"image" => "images/product-4.jpg",
-			"name" => "Rupanzal",
+			"name" => "M Sand",
 			"cost" =>"$30.00"
         ),
         array("id"=>4,
 			"image" => "images/product-5.jpg",
-			"name" => "Warrior",
-			"cost" =>"$45.00"
+			"name" => "Medium Stones",
+			"cost" =>"$20.00"
         ),
         array("id"=>5,
 			"image" => "images/product-6.jpg",
-			"name" => "Cindrella",
-			"cost" =>"$51.00"
+			"name" => "Tiles",
+			"cost" =>"$25.00"
         ),
         array("id"=>6,
 			"image" => "images/product-7.jpg",
-			"name" => "Zebra Toy",
-			"cost" =>"$47.00"
+			"name" => "Door",
+			"cost" =>"$70.00"
         ), 
 		array("id"=>7,
 			"image" => "images/product-8.jpg",
-			"name" => "Run Man ",
-			"cost" =>"$53.00"
+			"name" => "Windows",
+			"cost" =>"$40.00"
         ), 
 		array("id"=>8,
 			"image" => "images/product-9.jpg",
-			"name" => "Batman Theme duck",
-			"cost" =>"$34.00"
+			"name" => "Electric Wires",
+			"cost" =>"$30.00"
         ),
         array("id"=>9,
 			"image" => "images/product-10.jpg",
-			"name" => "jute monkey",
+			"name" => "Bathroom ware",
 			"cost" =>"$71.00"
         ),
 
         array("id"=>10,
 			"image" => "images/product-11.jpg",
-			"name" => "Teddy",
+			"name" => "Gates",
 			"cost" =>"$52.00"
         ),
 		array("id"=>12,
 			"image" => "images/product-12.jpg",
-			"name" => "wooden blocks",
+			"name" => "Overhead Tank",
 			"cost" =>"$58.00"
         ),
 
@@ -144,12 +144,12 @@ session_start();
 					<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
 					<li class="nav-item active"><a href="product.php" class="nav-link">Products</a></li> 
 					<li class="nav-item"><a href="news.php" class="nav-link">NewsLetter</a></li>
-                    <?php if($_SESSION["loggedin"]) { echo ('
-                        <li class="nav-item"><a href="employees.php" class="nav-link">Employees</a></li>
-                        <li class="nav-item"><a href="logout.php" class="nav-link"><i class="fa fa-sign-out" style="color:black">Log Out</i></a></li>
-                        ');} else {echo ('
-                            <li class="nav-item"><a href="employeelogin.php" class="nav-link">Admin</a></li>
-                    ');} ?>
+          <?php if($_SESSION["loggedin"]) { echo ('
+              <li class="nav-item"><a href="employees.php" class="nav-link">Employees</a></li>
+              <li class="nav-item"><a href="logout.php" class="nav-link"><i class="fa fa-sign-out" style="color:black">Log Out</i></a></li>
+              ');} else {echo ('
+                  <li class="nav-item"><a href="employeelogin.php" class="nav-link">Admin</a></li>
+          ');} ?>
 				  </ul>
 	        </ul>
 	      </div>
@@ -159,15 +159,12 @@ session_start();
     <!-- END nav -->
     
 
-    <div class="hero-wrap hero-bread" style="background-image: url('images/bg_5.jpg');">
-      <div class="container">
+    <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
-          <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-0 bread">Products</h1>
-          </div>
+          	<h1 class="mb-0 bread">Products</h1>
+            <br/><br/>
         </div>
       </div>
-    </div>
 
     <div class="row">
         <div class="col-4">

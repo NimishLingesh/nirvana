@@ -76,44 +76,44 @@ error_reporting(0);
 						<div class="row">
 		          <div class="col-md-12 d-flex ftco-animate">
 		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a href="news-open.php" class="block-20" style="background-image: url('images/lego-4.jpg');">
+		              <a href="news-open.php" class="block-20" style="background-image: url('images/news-1.jpg');">
 		              </a>
 		              <div class="text d-block pl-md-4">
 		              	<div class="meta mb-3">
-		                  <div><a>Oct 07, 2022</a></div>
+		                  <div><a>Aug 10, 2022</a></div>
 		                  <div><a>Admin</a></div>
 		                </div>
-		                <h3 class="heading"><a>Themed Lego set for 6+</a></h3>
-		                <p>Building legos of different themes like Mickey Mouse, Big Bang Theory etc. for kids above the age of 6 years</p>
+		                <h3 class="heading"><a>Top Construction material E-commerce</a></h3>
+		                <p>One of the top performing E-commerce in Construction materials.</p>
 		                <p><a href="news-open.php" class="btn btn-primary py-2 px-3">Read more</a></p>
 		              </div>
 		            </div>
 		          </div>
 		          <div class="col-md-12 d-flex ftco-animate">
 		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a class="block-20" style="background-image: url('images/image_4.jpg');">
+		              <a class="block-20" style="background-image: url('images/news-2.jpg');">
 		              </a>
 		              <div class="text d-block pl-md-4">
 		              	<div class="meta mb-3">
-		                  <div><a>Releasing Nov 11, 2022</a></div>
+		                  <div><a>Nov 11, 2022</a></div>
 		                </div>
-		                <h3 class="heading"><a>Toy Story Collection- season 3</a></h3>
-		                <p>The most sold Colletion in season one will be back with more adventurous touch given for young ones to enjoy.</p>
-		                <p><a style="color: white;"class="btn btn-primary py-2 px-3">Coming soon..</a></p>
+		                <h3 class="heading"><a>Nirvana gaining popularity</a></h3>
+		                <p>Nirvan number of users crossing 1 million.</p>
+		                <p><a style="color: white;"class="btn btn-primary py-2 px-3">Read more</a></p>
 		              </div>
 		            </div>
 		          </div>
 		          <div class="col-md-12 d-flex ftco-animate">
 		            <div class="blog-entry align-self-stretch d-md-flex">
-		              <a class="block-20" style="background-image: url('images/image_5.jpg');">
+		              <a class="block-20" style="background-image: url('images/news-3.jpg');">
 		              </a>
 		              <div class="text d-block pl-md-4">
 		              	<div class="meta mb-3">
-		                  <div><a> Releasing Dec 12, 2022</a></div>
+		                  <div><a>Dec 11, 2022</a></div>
 		                </div>
-		                <h3 class="heading"><a>Minion Collections- Release 2</a></h3>
-		                <p> The most waited and loved Minion collection coming soon on demaded with new, catchy and better designs.</p>
-		                <p><a style="color: white;"class="btn btn-primary py-2 px-3">Coming soon..</a></p>
+		                <h3 class="heading"><a>One Stop for all Solutions</a></h3>
+		                <p> Buy all kind of construction materials online </p>
+		                <!-- <p><a style="color: white;"class="btn btn-primary py-2 px-3">Coming soon..</a></p> -->
 		              </div>
 		            </div>
 		          </div>
@@ -124,14 +124,14 @@ error_reporting(0);
             <div class="sidebar-box ftco-animate">
             	<h3 class="heading">Categories</h3>
               <ul class="categories">
-                <li><a>Wooden Toys <span>(12)</span></a></li>
-                <li><a>polypropylene Toys <span>(22)</span></a></li>
-                <li><a>Natural Rubber toys <span>(37)</span></a></li>
-                <li><a>Natural Fiber Toys <span>(42)</span></a></li>
+                <li><a>Steel TMT <span>(11)</span></a></li>
+                <li><a>Cement <span>(32)</span></a></li>
+                <li><a>Bricks <span>(7)</span></a></li>
+                <li><a>M Sand <span>(18)</span></a></li>
               </ul>
             </div>
 
-            <div class="sidebar-box ftco-animate">
+            <!-- <div class="sidebar-box ftco-animate">
               <h3 class="heading">Previous Collection</h3>
               <div class="block-21 mb-4 d-flex">
                 <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
@@ -163,17 +163,17 @@ error_reporting(0);
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <div class="sidebar-box ftco-animate">
               <h3 class="heading">Tags</h3>
               <div class="tagcloud">
-                <a class="tag-cloud-link">Stuffed Toys</a>
-                <a class="tag-cloud-link">Organic fiber</a>
+                <a class="tag-cloud-link">Reliability</a>
+                <a class="tag-cloud-link">Long lasting</a>
                 <a class="tag-cloud-link">Superior Quality</a>
-                <a class="tag-cloud-link">Wooden Toys</a>
-                <a class="tag-cloud-link">Eco Friendly</a>
-                <a class="tag-cloud-link">Recyclable</a>
+                <a class="tag-cloud-link">Good Customer Service</a>
+                <a class="tag-cloud-link">Quick delivery</a>
+                <a class="tag-cloud-link">Logistics</a>
               </div>
             </div>
 
@@ -183,8 +183,7 @@ error_reporting(0);
     <footer>
       <section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
         <div class="container py-4">
-          <center>Thank you for stoping by <io style="color:red;">&#10084;</io></center>
-          <center>copyrights &copy 2022 shwethabhandary</center>
+          <center>copyrights &copy 2022 Nimish Lingesh</center>
         </div>
       </section>
     </footer>

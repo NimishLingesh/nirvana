@@ -63,20 +63,17 @@ error_reporting(0);
 	  </nav>
     <!-- END nav -->
 
-    <div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg');">
-      <div class="container">
+    <<div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
-          <div class="col-md-9 ftco-animate text-center">
           	<h1 class="mb-0 bread">About us</h1>
-          </div>
+            <br/><br/>
         </div>
       </div>
-    </div>
-
+      <br/><br/>
     <section class="ftco-section ftco-no-pb ftco-no-pt bg-light">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/about.jpg);">
+					<div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/about_1.jpg);">
 					</div>
 					<div class="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">
 	          <div class="heading-section-bold mb-4 mt-md-5">
@@ -85,8 +82,8 @@ error_reporting(0);
 	            </div>
 	          </div>
 	          <div class="pb-md-5">
-	          	<p>Toys and games are tons of fun for kids and adults. Whether your kids are working on a puzzle, playing with building blocks or even inventing their own games, here are some toy safety tips to help them stay safer and have a blast.</p>
-							<p>But each year, many kids are treated in hospital emergency departments for toy-related injuries. Choking is a risk for kids ages 3 or younger, because they tend to put objects in their mouths. Hence we came up with an idea to make a store with collective stock of kids safe products.</p>
+	          	<p>While there’s no big bad wolf coming to blow your house or business down, it stands true that some building materials are better suited for your project than others. Today, most structures are composed of wood, steel, concrete, or masonry. Each material has its own strengths and weaknesses that should be considered..</p>
+							<p>In most cases, engineers and architects utilize a combination of these materials in their designs to balance cost, aesthetics, structural integrity, and longevity. We’ll go into detail about what those strengths and weaknesses are, so you can take an active role in evaluating your structure’s design..</p>
 							<p><a href="product.php" class="btn btn-primary">View Catalog</a></p>
 						</div>
 				</div>
@@ -99,7 +96,7 @@ error_reporting(0);
         <div class="row">
           <div class="col-md-6 col-lg-4 ftco-animate">
             <div class="product">
-              <center><a class="img-prod"><img class="img-fluid" src="images/admin_1.jpg" style="max-width: 170px;border-radius: 50%;"></center></a>
+              <center><a class="img-prod"><img class="img-fluid" src="images/admin_nimish.jpg" style="max-width: 170px;border-radius: 50%;"></center></a>
               <div class="text py-3 pb-4 px-3 text-center">
                 <h3>
                 <a>
@@ -123,7 +120,7 @@ error_reporting(0);
           </div>
           <div class="col-md-6 col-lg-4 ftco-animate">
             <div class="product">
-              <center><a class="img-prod"><img class="img-fluid" src="images/admin_2.jpg" style="max-width: 170px;border-radius: 50%;"></center></a>
+              <center><a class="img-prod"><img class="img-fluid" src="images/admin_shwetha.jpg" style="max-width: 170px;border-radius: 50%;"></center></a>
               <div class="text py-3 pb-4 px-3 text-center">
                 <h3>
                   <a>
@@ -141,7 +138,7 @@ error_reporting(0);
           </div>
           <div class="col-md-6 col-lg-4 ftco-animate">
             <div class="product">
-              <center><a class="img-prod"><img class="img-fluid" src="images/admin_3.jpg" style="max-width: 170px;border-radius: 50%;"></center></a>
+              <center><a class="img-prod"><img class="img-fluid" src="images/admin_devansh.jpg" style="max-width: 170px;border-radius: 50%;"></center></a>
               <div class="text py-3 pb-4 px-3 text-center">
                 <h3><a>
                 <?php 
