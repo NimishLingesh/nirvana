@@ -230,8 +230,7 @@ error_reporting(0);
     <footer>
       <section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
         <div class="container py-4">
-          <center>Thank you for stoping by <io style="color:red;">&#10084;</io></center>
-          <center>copyrights &copy 2022 shwethabhandary</center>
+          <center>copyrights &copy 2022 Nimish Lingesh</center>
         </div>
       </section>
     </footer>

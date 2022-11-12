@@ -9,75 +9,75 @@ include('connection.php');
 <?php $arr = array(
         array("id"=>0,
             "image" => "images/product-1.jpg",
-            "name" => "Wooden car toy",
-            "description" => "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didnt take long until.",
+            "name" => "Steel TMT",
+            "description" => "All types of TMT - 20mm, 40mm, 80mm.",
             "cost" =>"$50.00"
         ),
         array("id"=>1,
             "image" => "images/product-2.jpg",
-            "name" => "Teddy",
-            "description" => "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didnt take long until.",
+            "name" => "Cement",
+            "description" => "Fine Quality Cements - JSW, Ambuja, ACC.",
             "cost" =>"$40.00"
         ),
         array("id"=>2,
 			"image" => "images/product-3.jpg",
-			"name" => "Wooden Unicorn Toy",
-            "description" => "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didnt take long until.",
+			"name" => "Bricks",
+            "description" => "Available with different sizes of Cement bricks, Sand Bricks.",
 			"cost" =>"$60.00"
         ),
         array("id"=>3,
 			"image" => "images/product-4.jpg",
-			"name" => "Rupanzal",
-            "description" => "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didnt take long until.",
+			"name" => "M Sand",
+            "description" => "One day delivery for all sizes of M Sand gravels.",
 			"cost" =>"$30.00"
         ),
         array("id"=>4,
 			"image" => "images/product-5.jpg",
-			"name" => "Warrior",
-            "description" => "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didnt take long until.",
+			"name" => "Stones",
+            "description" => "Stones of all sizes = Small, Medium, Large, Extra Large.",
 			"cost" =>"$45.00"
         ),
         array("id"=>5,
 			"image" => "images/product-6.jpg",
-			"name" => "Cindrella",
-            "description" => "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didnt take long until.",
+			"name" => "Tiles",
+            "description" => "Different kinds and colours of Tiles available.",
 			"cost" =>"$51.00"
         ),
         array("id"=>6,
 			"image" => "images/product-7.jpg",
-			"name" => "Zebra Toy",
-            "description" => "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didnt take long until.",
+			"name" => "Door",
+            "description" => "Wooden Doors with variable sizes.",
 			"cost" =>"$47.00"
         ), 
 		array("id"=>7,
 			"image" => "images/product-8.jpg",
-			"name" => "Run Man ",
-            "description" => "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didnt take long until.",
+			"name" => "Windows ",
+            "description" => "Windows with variable sizes.",
 			"cost" =>"$53.00"
         ), 
 		array("id"=>8,
 			"image" => "images/product-9.jpg",
-			"name" => "Batman Theme duck",
-            "description" => "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didnt take long until.",
+			"name" => "Electric Wires",
+            "description" => "Electric wires of different brands available.",
 			"cost" =>"$34.00"
         ),
         array("id"=>9,
 			"image" => "images/product-10.jpg",
-			"name" => "jute monkey",
-            "description" => "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didnt take long until.",
+			"name" => "Bathroom ware",
+            "description" => "Various bathroom wares set - Sink, Tub, Commode, Faucet.",
 			"cost" =>"$71.00"
         ),
 
         array("id"=>10,
 			"image" => "images/product-11.jpg",
-			"name" => "Teddy",
-            "description" => "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didnt take long until.",
+			"name" => "Gates",
+            "description" => "Fabrication Gates with Custom design.",
 			"cost" =>"$52.00"
         ),
 		array("id"=>12,
 			"image" => "images/product-12.jpg",
-			"name" => "wooden blocks",
-            "description" => "A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didnt take long until.",
+			"name" => "Overhead Tank",
+            "description" => "Overhead tank with 10K, 5k litres.",
 			"cost" =>"$58.00"
         ),
 
@@ -94,19 +94,19 @@ include('connection.php');
             break;
         }
     }
-//     $result = mysqli_query($con,"SELECT * FROM mostvisited WHERE id={$id}");
-//     if(mysqli_num_rows($result) === 0){
-//         $result2 = $con->query("INSERT INTO mostvisited (id,name,image,cost,count) values ({$id},'{$data['name']}','{$data['image']}','{$data['cost']}',1)");
-//     }
-//     else{
-//         while($row = $res -> fetch_assoc()){
-//             //echo "number of rows: " . $result->num_rows;
-//             $count =1+$row["count"];
-//             $sql = "UPDATE mostvisited set count='{$count}' where id={$id}";
-//             $result = $con->query($sql);
-//             break;
-//         }
-//     }
+    $result = mysqli_query($con,"SELECT * FROM mostvisited WHERE id={$id}");
+    if(mysqli_num_rows($result) === 0){
+        $result2 = $con->query("INSERT INTO mostvisited (id,name,image,cost,count) values ({$id},'{$data['name']}','{$data['image']}','{$data['cost']}',1)");
+    }
+    else{
+        while($row = $result -> fetch_assoc()){
+            //echo "number of rows: " . $result->num_rows;
+            $count =1+$row["count"];
+            $sql = "UPDATE mostvisited set count='{$count}' where id={$id}";
+            $result = $con->query($sql);
+            break;
+        }
+    }
      
     $cookie_name = $id;
     $cookie_val = time();
@@ -210,8 +210,7 @@ include('connection.php');
     <footer>
 		<section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
 			<div class="container py-4">
-				<center>Thank you for stoping by <io style="color:red;">&#10084;</io></center>
-				<center>copyrights &copy 2022 shwethabhandary</center>
+				<center>copyrights &copy 2022 Nimish Lingesh</center>
 			</div>
 		</section>
 	</footer>
