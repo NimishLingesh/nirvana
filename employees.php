@@ -99,6 +99,7 @@ if (!isset($_SESSION['loggedin'])) {
               <li class="nav-item"><a href="product.php" class="nav-link">Products</a></li> 
               <li class="nav-item"><a href="news.php" class="nav-link">NewsLetter</a></li>
               <li class="nav-item active"><a href="employees.php" class="nav-link">Employees</a></li>
+              <li class="nav-item"><a href="allEmployees.php" class="nav-link">All Employees</a></li>
               <li class="nav-item"><a href="logout.php" class="nav-link"><i class="fa fa-sign-out" style="color:black">Log Out</i></a></li> 
             </ul>
 	        </ul>

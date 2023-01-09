@@ -7,7 +7,7 @@ error_reporting(0);
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Toy Store</title>
+    <title>Nirvana</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     

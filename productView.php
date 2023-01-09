@@ -111,7 +111,7 @@ include('connection.php');
      
     $cookie_name = $id;
     $cookie_val = time();
-    setcookie($cookie_name,$cookie_val,time()+60*60*24,'/');
+    setcookie($cookie_name,$cookie_val,time()+60*60*24,'.nimish-lingesh.site');
 ?>
 <!DOCTYPE html>
 <html lang="en">
